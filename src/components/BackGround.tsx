@@ -5,9 +5,13 @@ import bgFeryM from "../assets/bgFeryM.png"
 export default function BackGround(){
     const [img, setImg] = useState(bgFery)
     useEffect(()=>{
-        if(window.innerWidth < 768){
-            setImg(bgFeryM)
-        }
+        setInterval(()=>{
+            if(window.innerWidth < 768){
+                setImg(bgFeryM)
+            }else{
+                setImg(bgFery)
+            }
+        }, 1000)
     }, [])
     return(
         <>

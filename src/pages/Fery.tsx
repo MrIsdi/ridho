@@ -52,7 +52,7 @@ export default function Fery(){
                     </div>
                     <div className="basis-1/2">
                         <div className="mt-4 md:pt-16 pt-8 bg-white w-3/4 m-auto md:h-[610px] h-[400px]">
-                            <div className="md:w-[380px] w-[230px] aspect-square bg-[#888888] m-auto mb-8">
+                            <div className="md:w-[380px] w-[230px] aspect-square bg-[#888888] m-auto mb-8 relative after:contents-[''] after:border-2 after:border-black after:absolute after:w-full after:aspect-[3/3.5] md:after:-top-5 after:-top-3 md:after:-right-5 after:-right-3 after:rounded-[24px]">
                                 <img src={profilFery} alt="" />
                             </div>
                             <p className="md:text-xl text-base font-[Poppins] font-light tracking-[4px] text-center mb-2">UNIVERSITAS ANDALAS</p>
