@@ -34,11 +34,11 @@ export default function Fery(){
                     <div className="basis-1/2">
                         <div className="bg-white shadow-[10px_8px_7px_0_rgba(0,0,0,.25)] w-3/4 mx-auto px-8 py-6 mt-4 mb-4">
                             <p className="font-['Lily_Script_One'] text-base">
-                                <span className="text-xl font-bold mb-4 block">Thank You</span>
+                                <span className="text-xl font-bold mb-4 block underline">Thank You</span>
                                 <span className="mb-4 block">
                                 Thank you to everyone who has supported me. I'm sorry that during the lecture I offended all my colleagues. May we all be given smoothness and ease of all affairs.
                                 </span>
-                                Hopefully what you dream of can be realized!
+                                Hopefully what you dream of can be realized! And please attend my graduation party will be held on :
                             </p>
                         </div>
                         <div className="bg-white shadow-[10px_8px_7px_0_rgba(0,0,0,.25)] w-3/4 m-auto md:px-8 px-4 py-6 font-['Poppins'] font-light">
